@@ -16,7 +16,8 @@ class App extends Component{
    return (
     <div>
       
-      <UserInput changed = {this.eventHandler}/>
+      <UserInput changed = {this.eventHandler}
+      currentname= {this.state.username}/>
       <UserOutput  username = {this.state.username}/>
       <UserOutput username= {this.state.username}/>
     </div>

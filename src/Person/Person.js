@@ -1,7 +1,7 @@
 import React from 'react';
 
-const person = () =>{
-	return <p> I am a person </p>
+const person = (props) =>{
+return <p> onChange = {props.switchContent} {props.username}</p>
 };
 
 
